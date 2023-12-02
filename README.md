@@ -1,6 +1,2 @@
-# h1 heading
-## h2 heading
-### h3 heading
-#### h4 heading
-##### h5 heading
-###### h6 heading
+# GTs Porfolio
+This is a website that shows my skills in programming through my projects. This website also provides contact information.
