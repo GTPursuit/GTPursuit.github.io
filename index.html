@@ -21,7 +21,7 @@
         <script> 
             let bground = document.querySelector(".gradient-mouse-tracking");
             bground.addEventListener('mousemove', e => {
-                let rec = e.target.grtBoundingClientRect();
+                let rect = e.target.getBoundingClientRect();
                 let x = e.clientX - rect.left;
                 let y = e.clientY - rect.top;
                 bground.style.setProperty('--x', x + 'px');
