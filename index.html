@@ -4,7 +4,7 @@
         <Title>GTPursuit | Home Page</Title> 
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body class = "gradient-mouse-tracking">
         <nav>
             <ul>
                 <li><a href = "index.html">Home Page</a></li>
@@ -19,7 +19,7 @@
         </p>
         <h1>Skills</h1>
         <script> 
-            let bground = document.querySelector("body");
+            let bground = document.querySelector(".gradient-mouse-tracking");
             bground.addEventListener('mousemove', e => {
                 let rec = e.target.grtBoundingClientRect();
                 let x = e.clientX - rect.left;
