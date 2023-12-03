@@ -4,7 +4,7 @@
         <Title>GTPursuit | Home Page</Title> 
         <link rel="stylesheet" href="style.css">
     </head>
-    <body class = "gradient-mouse-tracking">
+    <body>
         <nav>
             <ul>
                 <li><a href = "index.html">Home Page</a></li>
@@ -14,21 +14,15 @@
             </ul>
 
         </nav>
-        <h1>What's Uuuppp!!</h1>
-        <p>Welcome to my portfolio. My name is George-Thomas Beazley. I am a c++ game programmer who loves solving technical problems. My aim is to work in a company that develops projects to help me grow my knowledge and experience.
-        </p>
-        <h1>Skills</h1>
-        <script> 
-            let bground = document.querySelector(".gradient-mouse-tracking");
-            bground.addEventListener('mousemove', e => {
-                let rect = e.target.getBoundingClientRect();
-                let x = e.clientX - rect.left;
-                let y = e.clientY - rect.top;
-                bground.style.setProperty('--x', x + 'px');
-                bground.style.setProperty('--y', y + 'px');
-            })
-        </script>
+        <div class = "FirstLine">
+            <div class = "details">
+                <h1>What's Uuuppp!!</h1>
+                <p>Welcome to my portfolio. My name is George-Thomas Beazley. I am a c++ game programmer who loves solving technical problems. My aim is to work in a company that develops projects to help me grow my knowledge and experience.
+                    
+                </p>
+            </div>
+            <h1>Skills</h1>
 
-
+        </div>
     </body>
 </html>
