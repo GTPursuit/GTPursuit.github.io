@@ -9,7 +9,7 @@ height: 100%;
 body {   
     padding: 0px;
     height: 100%;
-    background: radial-gradient(red , #14141f 20%);
+    background: #14141f;
 }
 
 nav {
@@ -21,10 +21,28 @@ nav {
 ul li {
     list-style: none;
     display: inline-block; 
+    line-height: 100px;
 
 }
 
 ul li a {
     text-decoration: none;
+    padding: 0 20px
 
+}
+body::before {
+    --size: 0;
+    content:'';
+    position: absolute;
+    left:var(--x);
+    top: var(--y);
+    width: var(--size);
+    height: var(--size);
+    background: radial-gradient(circle closes-side, red, transparent);
+    transform: trasnlate(-50%, -50%);
+    transition: width 0.2s ease, heigh 0.2s ease;
+}
+
+body:hover::before {
+    --size: 200px;
 }
