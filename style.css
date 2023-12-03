@@ -38,9 +38,9 @@ ul li a {
     top: var(--y);
     width: var(--size);
     height: var(--size);
-    background: radial-gradient(circle closes-side, red, transparent);
+    background: radial-gradient(circle closest-side, red, transparent);
     transform: trasnlate(-50%, -50%);
-    transition: width 0.2s ease, heigh 0.2s ease;
+    transition: width 0.2s ease, height 0.2s ease;
 }
 
 .gradient-mouse-tracking:hover::before {
