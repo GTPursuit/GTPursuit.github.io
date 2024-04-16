@@ -16,8 +16,11 @@ body {
     width: 300px;
     background-color: aqua;
 }
-.FirstLine {
+.FirstLine div{
     display: inline-block;
+}
+.skills{
+    background-color: aliceblue;
 }
 body h1, body p {
     color: #9E9B67;
