@@ -13,6 +13,9 @@ body {
     height: 100%;
     background: #11111D;
 }
+h1 {
+    color: aliceblue;
+}
 main {
     background: #22223b;
 
@@ -70,7 +73,7 @@ nav {
 } 
 
 .navbar a.active {
-    color:cyan;
+    color:rgb(153, 0, 255);
 
 }
 
