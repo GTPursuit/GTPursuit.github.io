@@ -48,8 +48,10 @@ main {
     font-weight: 600;
 }
 .links {
+    color: aliceblue;
     font-size: 18px;
     margin-left: 0px;
+    left: 0;
     text-decoration: none;
     font-weight: 600;
     list-style: none;
@@ -58,7 +60,7 @@ main {
     align-items: left;
 
 }
-.links:visied{
+.links:visited{
     color: aliceblue;
 
 }
